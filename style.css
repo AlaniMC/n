@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.roboto-condensed {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.container24 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.logo-left,
+.logo-right {
+    width: 400px;
+    height: auto; 
+}
+
+#title2 {
+    flex: 0 0 auto;
+    margin: 0 20px; 
+}
+
+
+
+
+header{
+    background-color: rgb(0, 0, 0);
+    color: rgb(194, 194, 194);
+    padding: 3rem 2rem;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+
+nav a{
+    display: inline-block;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 22px;
+    
+}
+
+header h1{
+    font-size: 4rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 4rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.titulo-centralizado{
+    text-align: center;
+    padding: 5%;
+}
+
+#post{
+    transition: 0.3s ease;
+    background-color: rgb(110, 61, 54);
+    margin: 0 1rem 0 1rem;
+    border-radius: 0.5rem;
+    padding: 1rem 1rem;
+}
+ 
+
+
+
+
+ .container {
+    margin-top: 50px;
+    margin: 1rem ;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+
+.bg-custom-purple {
+    background-color: #372c7e; 
+}
+
+.bg-custom-blue {
+    background-color: #163555; 
+}
+
+.bg-custom-orange {
+    background-color: #5f410a; 
+}
+
+.row.justify-content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.col-md-4 {
+    border-radius: 0.5rem;
+    margin: 30px;
+    padding: 2rem 0 2rem 0; 
+    box-shadow: 0 1rem 0.4rem rgba(158, 37, 37, 0.3);
+}
+
+.col-md-4 img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto; 
+}
+
+
+footer {
+    background-color: rgb(59, 11, 4);
+    padding: 3rem;
+    color: white;
+ }
+
+
+footer a {
+    transition: color 0.3s ease;
+    color: rgb(141, 118, 118);
+    text-decoration: none;
+    margin: 0;
+ }
+
+ footer section {
+    float: right; 
+    padding: auto;
+}
